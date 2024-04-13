@@ -1,0 +1,46 @@
+html{
+    height: 100vh;
+}
+.container{
+    max-width: 1280px;
+    margin: auto;
+}
+.flex{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+   
+}
+
+header{
+    width: 100%;
+    padding: 60px 4%;
+    position: fixed;
+    top: 0 ;
+    left: 0;
+    transition: .5;
+}
+header.rolagem1{
+    background-color: 
+    #240424;
+    padding: 20px 4%;
+}
+header.rolagem1 a{
+    color: #7e6373;
+
+}
+header ul{
+    list-style: none;
+
+}
+header ul li{
+    display: inline-block;
+    margin: 0 40px;
+}
+
+header ul li a{
+    color: rgb(23, 22, 22);
+    text-decoration: none;
+    min-height: 20vh;
+    margin-top: 20vh;
+}
